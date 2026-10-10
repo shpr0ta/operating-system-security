@@ -19,7 +19,6 @@
   - [task2_10.sh](#task2_10sh)
 - [Пример CSV для 2.9–2.10](#пример-csv-для-29210)
 - [Запуск всех примеров](#запуск-всех-примеров)
-- [Git](#git)
 
 ## Требования
 
@@ -185,10 +184,4 @@ printf 'foo\n/bin/sh\nbinder\nbin here\n' | ./task2_3.sh
 ./task2_10.sh -g
 ```
 
-## Git
 
-```bash
-git add lab2/
-git commit -m "Лабораторная работа №2"
-git push origin main
-```
