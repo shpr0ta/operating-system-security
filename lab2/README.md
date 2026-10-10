@@ -4,7 +4,6 @@
 
 ## Содержание
 
-- [Требования](#требования)
 - [Структура](#структура)
 - [Сценарии](#сценарии)
   - [task2_1.sh](#task2_1sh)
@@ -17,14 +16,8 @@
   - [task2_8.sh](#task2_8sh)
   - [task2_9.sh](#task2_9sh)
   - [task2_10.sh](#task2_10sh)
-- [Пример CSV для 2.9–2.10](#пример-csv-для-29210)
 - [Запуск всех примеров](#запуск-всех-примеров)
 
-## Требования
-
-- Linux (любой дистрибутив с Bash 4+)
-- Утилиты: `date`, `wc`, `grep`, `md5sum`, `awk`, `tee`, `less`
-- Для заданий 2.9–2.10 — файл CSV с продажами
 
 ## Структура
 
@@ -36,10 +29,10 @@ lab2/
 ├── task2_4.sh
 ├── task2_5.sh
 ├── task2_6.sh
-├── task2_7.sh      # filter_numbers.sh
-├── task2_8.sh      # smart_calc.sh
-├── task2_9.sh      # analyze_sales.sh
-└── task2_10.sh     # analyze_sales.sh с -f csv и -g
+├── task2_7.sh
+├── task2_8.sh
+├── task2_9.sh
+└── task2_10.sh
 ```
 
 Сделайте файлы исполняемыми:
@@ -57,7 +50,7 @@ chmod +x lab2/*.sh
 ```bash
 ./task2_1.sh
 ./task2_1.sh
-cat /tmp/run.log
+cat //tmp/run.log
 ```
 
 ### task2_2.sh
@@ -155,15 +148,6 @@ cat sales_report.txt
 ```bash
 ./task2_10.sh -f csv sales.csv
 ./task2_10.sh -g
-```
-
-## Пример CSV для 2.9–2.10
-
-```csv
-id,product,price,quantity
-1,apple,10,3
-2,pear,20,1
-3,plum,5,4
 ```
 
 ## Запуск всех примеров
